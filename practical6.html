@@ -1,0 +1,211 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Hometown – Nagpur</title>
+
+  <style>
+    :root {
+      --bg: #0f2027;
+      --bg-accent: #203a43;
+      --bg-light: #2c5364;
+      --text: #f2f6f8;
+      --accent: #ffcc66;
+      --muted: #cbd6dc;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      color: var(--text);
+      background: linear-gradient(135deg, var(--bg), var(--bg-accent), var(--bg-light));
+    }
+
+    .page {
+      max-width: 1000px;
+      margin: auto;
+      padding: 24px;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 20px;
+      align-items: center;
+      padding: 24px;
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.06);
+    }
+    header h1 {
+      color: var(--accent);
+    }
+
+    .hero-img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+
+    section {
+      margin-top: 28px;
+      padding: 20px;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    section h2 {
+      color: var(--accent);
+    }
+
+    .places {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .place-card {
+      background: rgba(255,255,255,0.08);
+      padding: 10px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .place-card img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+    header h1 {
+      color: var(--accent);
+    }
+
+    .hero-img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+
+    section {
+      margin-top: 28px;
+      padding: 20px;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    section h2 {
+      color: var(--accent);
+    }
+
+    .places {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .place-card {
+      background: rgba(255,255,255,0.08);
+      padding: 10px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .place-card img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      color: var(--muted);
+    }
+
+    @media (max-width: 760px) {
+      header {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+
+    <header>
+      <div>
+        <h1>Welcome to Nagpur</h1>
+        <p>Known as the Orange City, Nagpur blends heritage, lakes, and greenery.</p>
+      </div>
+      <img class="hero-img" src="https://pbs.twimg.com/media/E2NG6wfVgAAgYnS.jpg" alt="Nagpur City" />
+    </header>
+
+    <section>
+      <h2>About my hometown</h2>
+      <p>
+        Nagpur is located in Maharashtra and is famous for oranges, lakes, and cultural heritage.
+      </p>
+    </section>
+
+    <section>
+      <h2>Places to visit</h2>
+
+      <div class="places">
+
+        <div class="place-card">
+          <img src="https://as2.ftcdn.net/jpg/06/40/13/59/1000_F_640135967_9nsWSpfSI9TmxbZRSiCl05AxI6jCe9xL.jpg" alt="Deekshabhoomi">
+          <p>Deekshabhoomi</p>
+        </div>
+
+        <div class="place-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdW9empirByKx-NA-FqOSjFqOSj08mgVC3SZifaxg&s" alt="Ambazari Lake">
+          <p>Ambazari Lake</p>
+        </div>
+
+        <div class="place-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy2GlcXAw0f5fjsEQsita2rpxLMKljdrG-8w&s" alt="Futala Lake">
+          <p>Futala Lake</p>
+        </div>
+
+        <div class="place-card">
+          <img src="https://nagpurtourism.co.in/images/places-to-visit/header/seminary-hills-nagpur-header-nagpur-tourism.jpg" alt="Seminary Hill">
+          <p>Seminary Hill</p>
+        </div>
+
+        <div class="place-card">
+          <img src="https://nagpurtourism.co.in/images/tourist-places/japanese-rose-garden-nagpur/japanese-rose-garden-nagpur-entry-ticket-price-nagpur-tourism.jpg" alt="Japanese Rose Garden">
+          <p>Japanese Rose Garden</p>
+        </div>
+
+        <div class="place-card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Zero_mile_nagpur.jpg" alt="Zero Mile">
+          <p>Zero Mile</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <h2>Local flavors</h2>
+      <p>Famous for oranges, street food, and Maharashtrian dishes.</p>
+    </section>
+
+    <section>
+      <h2>Why I love it</h2>
+      <p>Peaceful environment, beautiful lakes, and friendly people.</p>
+    </section>
+    <footer>
+      © My Hometown — Nagpur
+    </footer>
+
+  </div>
+</body>
+</html>
